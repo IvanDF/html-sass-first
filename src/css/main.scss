@@ -1,6 +1,20 @@
 $primary-col: rgb(209, 131, 28);
+$txt-col-1: dodgerblue;
+$txt-col-2: rgb(56, 148, 102);
 
-h1,
+h2,
 h3 {
     color: $primary-col
+}
+
+.h2 {
+    p {
+        color: $txt-col-1;
+    }
+}
+
+.h3 {
+    p {
+        color: $txt-col-2;
+    }
 }
